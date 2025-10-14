@@ -122,6 +122,8 @@ body{
     }
     .btn{
         width:22%;
+        font-size: 50px;
+        
     }
   #data{
     font-size: 6.5rem;
