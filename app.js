@@ -202,6 +202,7 @@ function deleting(){
         storage=[];
         first=0;
         second=0;
+        result=null;
     }
     else{
         storage.pop(storage.length-1);
