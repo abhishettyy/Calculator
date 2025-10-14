@@ -117,10 +117,13 @@ body{
     }
     #container{
         width: 100vw;
-        height: 100vh;
+        height: 95vh;
         border-radius:0;
     }
     .btn{
         width:22%;
     }
+  #data{
+    font-size: 4.5rem;
+  }
 }
