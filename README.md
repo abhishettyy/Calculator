@@ -1,6 +1,7 @@
 # Web-Based Calculator
 
-A responsive and user-friendly calculator built with vanilla HTML, CSS, and JavaScript. This project features a clean, retro-inspired design with a digital display font and handles both mouse and keyboard inputs.
+A responsive and user-friendly calculator built with vanilla HTML, CSS, and JavaScript. This project features a clean, 
+retro-inspired design with a digital display font and handles both mouse and keyboard inputs.
 
 [**Live Demo**](https://abhishettyy.github.io/Calculator/) 
 
@@ -21,16 +22,24 @@ A responsive and user-friendly calculator built with vanilla HTML, CSS, and Java
 * **JavaScript (ES6)**: For all client-side logic, event handling, and calculations.
 * 
 ---
+##What did I learn?
+The core challenge of this project was to build the calculation logic from scratch without relying on built-in functions like eval() or AI-assisted code generation. While the resulting logic may not be the most optimal, this approach provided a significant learning experience.
+
+    * Independent Problem-Solving: The entire calculation engine, including the parsing of numbers and operators, was implemented manually. This was a valuable exercise in algorithmic thinking.
+
+    * Edge Case Handling: A major takeaway was learning how to identify and handle numerous edge cases, such as trailing operators, negative numbers, and repeated inputs.
+
+    *Debugging with Breakpoints: The browser's developer tools, particularly using breakpoints, were crucial for tracing the flow of data through the code. This was instrumental in understanding the state of the         storage array and debugging the logic step-by-step.
 
 ## How to Use
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone [https://github.com/abhishettyy/Calculator.git](https://github.com/abhishettyy/Calculator.git)
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd your-repository-name
+    cd calculator
     ```
 3.  **Open the `index.html` file in your browser.**
 
