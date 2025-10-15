@@ -22,14 +22,17 @@ retro-inspired design with a digital display font and handles both mouse and key
 * **JavaScript (ES6)**: For all client-side logic, event handling, and calculations.
 * 
 ---
-##What did I learn?
-The core challenge of this project was to build the calculation logic from scratch without relying on built-in functions like eval() or AI-assisted code generation. While the resulting logic may not be the most optimal, this approach provided a significant learning experience.
+## Project Journey & Key Learnings
 
-    * Independent Problem-Solving: The entire calculation engine, including the parsing of numbers and operators, was implemented manually. This was a valuable exercise in algorithmic thinking.
+The core challenge of this project was to build the calculation logic from scratch without relying on built-in functions like `eval()` or AI-assisted code generation. While the resulting logic may not be the most optimal, this approach provided a significant learning experience.
 
-    * Edge Case Handling: A major takeaway was learning how to identify and handle numerous edge cases, such as trailing operators, negative numbers, and repeated inputs.
+* **Independent Problem-Solving**: The entire calculation engine, including the parsing of numbers and operators, was implemented manually. This was a valuable exercise in algorithmic thinking.
+* **Edge Case Handling**: A major takeaway was learning how to identify and handle numerous edge cases, such as trailing operators, negative numbers, and repeated inputs.
+* **Debugging with Breakpoints**: The browser's developer tools, particularly using **breakpoints**, were crucial for tracing the flow of data through the code. This was instrumental in understanding the state of the `storage` array and debugging the logic step-by-step.
 
-    *Debugging with Breakpoints: The browser's developer tools, particularly using breakpoints, were crucial for tracing the flow of data through the code. This was instrumental in understanding the state of the         storage array and debugging the logic step-by-step.
+This project was a practical lesson in the importance of robust debugging and the complexities of state management in an application.
+
+---
 
 ## How to Use
 
