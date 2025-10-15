@@ -197,7 +197,7 @@ function calculate(){
     for(ele of temp){
         storage.push(ele);
     }
-    result=''; 
+    result=null; 
 }
 function deleting(){
     if(result!=null){
