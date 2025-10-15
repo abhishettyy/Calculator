@@ -20,7 +20,6 @@ retro-inspired design with a digital display font and handles both mouse and key
 * **HTML5**: For the fundamental structure and layout of the calculator.
 * **CSS3**: For all styling, including Flexbox for layout and media queries for responsiveness.
 * **JavaScript (ES6)**: For all client-side logic, event handling, and calculations.
-* 
 ---
 ## What did I learn?
 
