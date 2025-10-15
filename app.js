@@ -7,6 +7,7 @@ let operand;
 let result=null;
 let storage=[];
 let opCount=0;
+let c=false;
 let keys=document.querySelectorAll(".btn");
 for(ele of keys){
     ele.addEventListener('click',e=>{
@@ -25,6 +26,7 @@ function inputValue(target){
                     first=0;
                     second=0;
                     storage=[];
+                    result=null;
                     break;
         case 'del':deleting();
                     break;
@@ -107,7 +109,6 @@ function keyboardInput(value){
 function dataAcccept(data){
    display.innerHTML+=data;
    storage.push(data);
-   
 }
 equals.addEventListener('click',()=>{
     verify();
@@ -194,7 +195,6 @@ function calculate(){
     for(ele of temp){
         storage.push(ele);
     }
-    result=null; 
 }
 function deleting(){
     if(result!=null){
