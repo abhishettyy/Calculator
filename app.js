@@ -10,9 +10,6 @@ let opCount=0;
 let keys=document.querySelectorAll(".btn");
 for(ele of keys){
     ele.addEventListener('click',e=>{
-        if(result!=null){
-            display.innerHTML="";
-        }
         inputValue(e.target);
     });
      ele.addEventListener('mousedown', e => {
